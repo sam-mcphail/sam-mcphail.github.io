@@ -1,0 +1,61 @@
+body {
+  background-color: cadetblue;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.grid-group {
+  display: grid;
+  text-align: center;
+}
+
+.sprint-1 {
+  background-color: white;
+}
+
+.sprint-2 {
+  background-color: gray;
+}
+
+.black-border {
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+.identity-1 {
+  background-color: white;
+}
+
+.identity-2 {
+  background-color: gray;
+}
+
+.identity-3 {
+  background-color: white;
+}
+
+.identity-4 {
+  background-color: gray;
+}
+
+.identity-5 {
+  background-color: white;
+}
