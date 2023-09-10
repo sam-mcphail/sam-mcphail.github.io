@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Inline vs Inline Blocks</title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <main>
+    <h1>CSS Inline vs Inline Blocks</h1>
+    <div class="grid-group">
+      <div class="block-1 black-border">
+        <h3>Introduction</h3>
+        <p>
+          'display: inline' and 'display: inline-block' are two different ways
+          to display boxes side by side in CSS. The main difference between the
+          two is ‘inline’ doesn’t respect the top and bottom margins and
+          paddings, but ‘inline-block’ does.
+        </p>
+      </div>
+      <div class="block-2 black-border">
+        <h3>Example</h3>
+        <p>
+          In the examples below, you can see that when using inline, all of the
+          boxes are side my side, however the top and bottom margins and
+          paddings are uniform. In comparison, when using inline-block, all the
+          boxes are side by side, but this time the top and bottom margins and
+          paddings are respected and can be seen.
+        </p>
+        <div class="inline-images">
+          <img src="../images/css-inline.png" width="300" alt />
+          <figcaption>Example of inline</figcaption>
+          <img src="../images/css-inline-block.png" width="300" alt />
+          <figcaption>Example of inline-block</figcaption>
+        </div>
+        <p>
+          In the next example, you can see how these interact when used
+          alongside each other. As we have already established, the boxes using
+          inline and inline-block sit alongside eachother, but the ones using
+          inline-block have their top and bottom margins and paddings respected.
+          In this example, you can also see what happens when using 'display:
+          block'. The boxes using block cannot sit alongside another box.
+        </p>
+        <div class="inline-images">
+          <img
+            src="../images/css-inline-and-inline-block.png"
+            width="300"
+            alt
+          />
+          <figcaption>Example of block, inline and inline-block</figcaption>
+        </div>
+        <p>
+          To supplement these examples, I have also added an example of inline
+          and inline-block formatted in CSS code.
+        </p>
+        <div class="inline-images">
+          <img src="../images/css-inline-code.png" width="300" alt />
+          <figcaption>Example of inline, written in CSS</figcaption>
+          <img src="../images/css-inline-block-code.png" width="300" alt />
+          <figcaption>Example of inline-block, written in CSS</figcaption>
+        </div>
+      </div>
+    </div>
+  </main>
+</html>

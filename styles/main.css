@@ -1,6 +1,6 @@
 body {
   background-color: cadetblue;
-  text-align: left;
+  text-align: center;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -21,16 +21,8 @@ p {
 }
 
 .grid-group {
-  display: grid;
+  display: inline-block;
   text-align: center;
-}
-
-.sprint-1 {
-  background-color: white;
-}
-
-.sprint-2 {
-  background-color: gray;
 }
 
 .black-border {
@@ -38,24 +30,30 @@ p {
   border-width: 5px;
   border-style: solid;
   border-radius: 8px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
-.identity-1 {
+.inline-images {
+  display: inline-block;
+}
+
+.block-1 {
   background-color: white;
 }
 
-.identity-2 {
+.block-2 {
   background-color: gray;
 }
 
-.identity-3 {
+.block-3 {
   background-color: white;
 }
 
-.identity-4 {
+.block-4 {
   background-color: gray;
 }
 
-.identity-5 {
+.block-5 {
   background-color: white;
 }
