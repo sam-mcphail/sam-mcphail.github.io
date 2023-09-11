@@ -20,6 +20,14 @@ p {
   font-size: 17px;
 }
 
+.content-paragraph {
+  text-align: left;
+}
+
+ol {
+  font-size: 17px;
+}
+
 .grid-group {
   display: inline-block;
   text-align: center;
