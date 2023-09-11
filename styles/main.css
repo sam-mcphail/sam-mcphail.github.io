@@ -46,22 +46,20 @@ ol {
   display: inline-block;
 }
 
-.block-1 {
+.sprint-odd {
   background-color: white;
 }
 
-.block-2 {
+.sprint-even {
   background-color: gray;
 }
 
-.block-3 {
+.block-odd {
   background-color: white;
+  text-align: left;
 }
 
-.block-4 {
+.block-even {
   background-color: gray;
-}
-
-.block-5 {
-  background-color: white;
+  text-align: left;
 }
