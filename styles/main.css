@@ -26,6 +26,10 @@ p {
   font-size: 17px;
 }
 
+figcaption {
+  font-style: italic;
+}
+
 .content-paragraph {
   text-align: left;
 }
@@ -53,19 +57,43 @@ ol {
 }
 
 .sprint-odd {
-  background-color: white;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(225, 225, 225, 1) 75%,
+    rgba(195, 195, 195, 1) 100%
+  );
 }
 
 .sprint-even {
-  background-color: gray;
+  background: rgb(180, 180, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 180, 180, 1) 0%,
+    rgba(150, 150, 150, 1) 75%,
+    rgba(120, 120, 120, 1) 100%
+  );
 }
 
 .block-odd {
-  background-color: white;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(225, 225, 225, 1) 75%,
+    rgba(195, 195, 195, 1) 100%
+  );
   text-align: left;
 }
 
 .block-even {
-  background-color: gray;
+  background: rgb(180, 180, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 180, 180, 1) 0%,
+    rgba(150, 150, 150, 1) 75%,
+    rgba(120, 120, 120, 1) 100%
+  );
   text-align: left;
 }
