@@ -1,21 +1,21 @@
 body {
-  background: rgb(14, 10, 94);
+  background: rgb(10, 10, 100);
   background: linear-gradient(
     90deg,
-    rgba(14, 10, 94, 1) 0%,
-    rgba(46, 46, 193, 1) 45%,
-    rgba(0, 212, 255, 1) 100%
+    rgba(10, 10, 100, 1) 0%,
+    rgba(50, 50, 200, 1) 45%,
+    rgba(80, 100, 250, 1) 100%
   );
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 100px;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 55px;
 }
 
 h3 {
@@ -56,6 +56,10 @@ ol {
   display: inline-block;
 }
 
+img {
+  border: 2px solid black;
+}
+
 .sprint-odd {
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -64,6 +68,7 @@ ol {
     rgba(225, 225, 225, 1) 75%,
     rgba(195, 195, 195, 1) 100%
   );
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .sprint-even {
@@ -74,6 +79,7 @@ ol {
     rgba(150, 150, 150, 1) 75%,
     rgba(120, 120, 120, 1) 100%
   );
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .block-odd {
@@ -84,6 +90,7 @@ ol {
     rgba(225, 225, 225, 1) 75%,
     rgba(195, 195, 195, 1) 100%
   );
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   text-align: left;
 }
 
@@ -95,5 +102,40 @@ ol {
     rgba(150, 150, 150, 1) 75%,
     rgba(120, 120, 120, 1) 100%
   );
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   text-align: left;
+}
+
+.linkButton {
+  box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.75);
+  background: rgb(49, 119, 167);
+  background: radial-gradient(
+    circle,
+    rgba(49, 119, 167, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border-radius: 10px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-size: 19px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #000000;
+  margin: 10px 0px;
+}
+
+.buttonContainer {
+  display: inline-grid;
+}
+
+.linkButton:hover {
+  background: linear-gradient(to bottom, #3468a3 5%, #4885e8 100%);
+  background-color: #3468a3;
+}
+
+.linkButton:active {
+  position: relative;
+  top: 1px;
 }
