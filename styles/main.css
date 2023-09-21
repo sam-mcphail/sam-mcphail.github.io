@@ -108,7 +108,6 @@ img {
 }
 
 .linkButton {
-  box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.75);
   background: rgb(49, 119, 167);
   background: radial-gradient(
     circle,
