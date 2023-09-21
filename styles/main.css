@@ -93,6 +93,7 @@ img {
   );
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   text-align: left;
+  max-width: 1000px;
 }
 
 .block-even {
@@ -105,6 +106,7 @@ img {
   );
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   text-align: left;
+  max-width: 1000px;
 }
 
 .linkButton {
